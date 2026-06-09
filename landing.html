@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        nav{
+            background-color: deeppink;
+            padding: 15px;
+        }
+        nav ul{
+               list-style: none;
+               display: flex;
+               justify-content: center;
+        }
+        nav ul li{
+                margin: 0 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: larger;
+            color: rgb(248, 247, 243);
+            font-weight: bold;
+        }
+        nav ul li a:hover{
+            color: mediumturquoise;
+        }
+        .hero{
+            height: 400px;
+            background-image: url('https://cdn.pixabay.com/photo/2014/11/16/23/39/superhero-534120_960_720.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h1{
+            color: rgb(251, 255, 253);
+            font-weight: bold;
+            font-size: xx-large;
+        }
+        .content{
+            display: flex;
+            gap: 20px;
+            padding: 40px;
+        }
+        .column{
+            background-color: cornflowerblue;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        footer{
+            background-color: deeppink;
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            font-size: larger;
+        }
+        .column h3{
+            color: rgb(71, 11, 236);
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+  <nav>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+  </nav>  
+  <section class="hero">
+    <h1>Welcome to My Website</h1>
+  </section>
+  <section class="content">
+    <div class="column">
+    <h3>Web Development</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eaque assumenda itaque distinctio dignissimos nesciunt qui earum? Rem necessitatibus obcaecati explicabo repellat optio mollitia ullam error autem hic commodi animi provident minus vel atque sequi expedita eaque ratione, deserunt corporis?</p>
+    </div>
+    <div class="column">
+    <h3>Mobile Developer</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ratione eaque error! Quas voluptas perspiciatis distinctio, ipsam incidunt magni ab adipisci cum inventore. Illo ut id iste cumque officia non porro, rem accusamus facilis quo totam qui est quia doloremque.</p>
+    </div>
+    <div class="column">
+    <h3>Cloud and Devops</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati laudantium illo, earum consequuntur, repudiandae, officiis atque sed veniam libero ipsa eaque hic! Rem possimus alias sint magnam explicabo eligendi, sit hic cumque sapiente deleniti voluptatibus aut accusamus animi, asperiores esse!</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2026. All Rights Reserved</p>
+  </footer>
+</body>
+</html>

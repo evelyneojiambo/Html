@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body{
+            background-color: darksalmon;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-container{
+            width: 350px;
+            background-color: aqua;
+            padding: 25px;
+        }
+        .form-group{
+            margin-bottom: 15px;
+
+        }
+        input{
+            width: 200px;
+            text-align: left;
+        }
+        label{
+            background-color: rgb(235, 227, 227);
+            width: 100px;
+            border-radius: 6px;  
+        }
+        button{
+            color: blueviolet;
+            margin: 10px;
+            padding: 10px 15px;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: rgb(180, 16, 16);
+            color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+    <h2 style="text-align: center; margin-bottom: 20px;">Registration Form</h2>
+    <form action="">
+        <div class="form-group">
+        <label for="">Name:</label>
+        <input type="text" 
+        placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+        <label for="">Email:</label>
+        <input type="email"
+        placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+        <label for="">Password:</label>
+        <input type="password"
+        placeholder="Enter your password" required>
+        </div>
+        <div class="form-group">
+        <label for="">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="">Male</option>
+            <option value="">Female</option>
+        </select>
+        </div>
+        <button>Register</button>
+    </form>
+</div>
+</body>
+</html>
